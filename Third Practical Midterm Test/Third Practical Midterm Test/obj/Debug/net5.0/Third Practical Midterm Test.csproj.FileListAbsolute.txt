@@ -1,0 +1,15 @@
+D:\Prompt\Third Practical Midterm Test\Third Practical Midterm Test\Third Practical Midterm Test\bin\Debug\net5.0\Third Practical Midterm Test.exe
+D:\Prompt\Third Practical Midterm Test\Third Practical Midterm Test\Third Practical Midterm Test\bin\Debug\net5.0\Third Practical Midterm Test.deps.json
+D:\Prompt\Third Practical Midterm Test\Third Practical Midterm Test\Third Practical Midterm Test\bin\Debug\net5.0\Third Practical Midterm Test.runtimeconfig.json
+D:\Prompt\Third Practical Midterm Test\Third Practical Midterm Test\Third Practical Midterm Test\bin\Debug\net5.0\Third Practical Midterm Test.runtimeconfig.dev.json
+D:\Prompt\Third Practical Midterm Test\Third Practical Midterm Test\Third Practical Midterm Test\bin\Debug\net5.0\Third Practical Midterm Test.dll
+D:\Prompt\Third Practical Midterm Test\Third Practical Midterm Test\Third Practical Midterm Test\bin\Debug\net5.0\ref\Third Practical Midterm Test.dll
+D:\Prompt\Third Practical Midterm Test\Third Practical Midterm Test\Third Practical Midterm Test\bin\Debug\net5.0\Third Practical Midterm Test.pdb
+D:\Prompt\Third Practical Midterm Test\Third Practical Midterm Test\Third Practical Midterm Test\obj\Debug\net5.0\Third Practical Midterm Test.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prompt\Third Practical Midterm Test\Third Practical Midterm Test\Third Practical Midterm Test\obj\Debug\net5.0\Third Practical Midterm Test.AssemblyInfoInputs.cache
+D:\Prompt\Third Practical Midterm Test\Third Practical Midterm Test\Third Practical Midterm Test\obj\Debug\net5.0\Third Practical Midterm Test.AssemblyInfo.cs
+D:\Prompt\Third Practical Midterm Test\Third Practical Midterm Test\Third Practical Midterm Test\obj\Debug\net5.0\Third Practical Midterm Test.csproj.CoreCompileInputs.cache
+D:\Prompt\Third Practical Midterm Test\Third Practical Midterm Test\Third Practical Midterm Test\obj\Debug\net5.0\Third Practical Midterm Test.dll
+D:\Prompt\Third Practical Midterm Test\Third Practical Midterm Test\Third Practical Midterm Test\obj\Debug\net5.0\ref\Third Practical Midterm Test.dll
+D:\Prompt\Third Practical Midterm Test\Third Practical Midterm Test\Third Practical Midterm Test\obj\Debug\net5.0\Third Practical Midterm Test.pdb
+D:\Prompt\Third Practical Midterm Test\Third Practical Midterm Test\Third Practical Midterm Test\obj\Debug\net5.0\Third Practical Midterm Test.genruntimeconfig.cache
