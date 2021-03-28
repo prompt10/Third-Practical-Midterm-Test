@@ -99,6 +99,7 @@ namespace Third_Practical_Midterm_Test
                     {
                         Console.WriteLine("All box out, B IS THE WINNER");
                         done = true;
+                        break;
                     }
                 } while (BoxNum < 1 && BoxNum > 3);
 
@@ -171,6 +172,7 @@ namespace Third_Practical_Midterm_Test
                     {
                         Console.WriteLine("All box out, A IS THE WINNER");
                         done = true;
+                        break;
                     }
                 } while (BoxNum < 1 && BoxNum > 3);
             }
