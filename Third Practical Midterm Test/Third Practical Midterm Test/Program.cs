@@ -19,7 +19,7 @@ namespace Third_Practical_Midterm_Test
             } while (_2ndBox <= 0);
             do
             {
-                Console.Write("Please input the amount of thing in 1st Box; ");
+                Console.Write("Please input the amount of thing in 3rd Box; ");
                 _3rdBox = int.Parse(Console.ReadLine());
             } while (_3rdBox <= 0);
         }
