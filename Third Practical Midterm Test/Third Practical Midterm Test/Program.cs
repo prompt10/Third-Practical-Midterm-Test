@@ -8,6 +8,7 @@ namespace Third_Practical_Midterm_Test
         {
             int unit_No1Box, unit_No2Box, unit_No3Box, aTake, bTake;
             int BoxNum;
+            bool done = false;
 
             //Box drafting phase
             do
@@ -27,7 +28,7 @@ namespace Third_Practical_Midterm_Test
             } while (unit_No3Box <= 0);
 
             //2-player cycle loop
-            while (unit_No1Box != 0 && unit_No2Box != 0 && unit_No3Box != 0)
+            while (!done)
             {
                 //A-choose&takes phase
                 do
@@ -51,7 +52,7 @@ namespace Third_Practical_Midterm_Test
                             {
                                 Console.WriteLine("Please input your take again.");
                             }
-                        } while (aTake != 1 || aTake != 2);
+                        } while (aTake != 1 && aTake != 2);
                     }
                     if (BoxNum == 2 && unit_No2Box > 0)
                     {
@@ -69,7 +70,7 @@ namespace Third_Practical_Midterm_Test
                             {
                                 Console.WriteLine("Please input your take again.");
                             }
-                        } while (aTake != 1 || aTake != 2);
+                        } while (aTake != 1 && aTake != 2);
                     }
                     if (BoxNum == 3 && unit_No3Box > 0)
                     {
@@ -80,25 +81,26 @@ namespace Third_Practical_Midterm_Test
                             Console.Write(" unit(s)");
                             if (aTake == 1 || aTake == 2)
                             {
-                                unit_No1Box = unit_No1Box - aTake;
+                                unit_No3Box = unit_No3Box - aTake;
                                 Console.WriteLine("Now Box No.1 has {0} unit(s) left, Box No.2 has {1} unit(s) left, Box No.3 has {2} unit(s) left", unit_No1Box, unit_No2Box, unit_No3Box);
                             }
                             else
                             {
                                 Console.WriteLine("Please input your take again.");
                             }
-                        } while (aTake != 1 || aTake != 2);
+                        } while (aTake != 1 && aTake != 2);
                     }
-                    else
-                    {
-                        Console.WriteLine("Please choose another box");
-                    }
+                    //else
+                    //{
+                    //    Console.WriteLine("Please choose another box");
+                    //}
                     //victory condition check
                     if (unit_No1Box == 0 && unit_No2Box == 0 && unit_No3Box == 0)
                     {
                         Console.WriteLine("All box out, B IS THE WINNER");
+                        done = true;
                     }
-                } while (BoxNum < 1 || BoxNum > 3);
+                } while (BoxNum < 1 && BoxNum > 3);
 
                 //B-choose&takes phase
                 do
@@ -122,7 +124,7 @@ namespace Third_Practical_Midterm_Test
                             {
                                 Console.WriteLine("Please input your take again.");
                             }
-                        } while (bTake != 1 || bTake != 2);
+                        } while (bTake != 1 && bTake != 2);
                     }
                     if (BoxNum == 2 && unit_No2Box > 0)
                     {
@@ -140,7 +142,7 @@ namespace Third_Practical_Midterm_Test
                             {
                                 Console.WriteLine("Please input your take again.");
                             }
-                        } while (bTake != 1 || bTake != 2);
+                        } while (bTake != 1 && bTake != 2);
                     }
                     if (BoxNum == 3 && unit_No3Box > 0)
                     {
@@ -151,25 +153,26 @@ namespace Third_Practical_Midterm_Test
                             Console.Write(" unit(s)");
                             if (bTake == 1 || bTake == 2)
                             {
-                                unit_No1Box = unit_No1Box - bTake;
+                                unit_No3Box = unit_No3Box - bTake;
                                 Console.WriteLine("Now Box No.1 has {0} unit(s) left, Box No.2 has {1} unit(s) left, Box No.3 has {2} unit(s) left", unit_No1Box, unit_No2Box, unit_No3Box);
                             }
                             else
                             {
                                 Console.WriteLine("Please input your take again.");
                             }
-                        } while (bTake != 1 || bTake != 2);
+                        } while (bTake != 1 && bTake != 2);
                     }
-                    else
-                    {
-                        Console.WriteLine("Please choose another box");
-                    }
+                    //else
+                    //{
+                    //    Console.WriteLine("Please choose another box");
+                    //}
                     //victory condition check
                     if (unit_No1Box == 0 && unit_No2Box == 0 && unit_No3Box == 0)
                     {
                         Console.WriteLine("All box out, A IS THE WINNER");
+                        done = true;
                     }
-                } while (BoxNum < 1 || BoxNum > 3);
+                } while (BoxNum < 1 && BoxNum > 3);
             }
         }
     }

@@ -13,3 +13,4 @@ D:\Prompt\Third Practical Midterm Test\Third Practical Midterm Test\Third Practi
 D:\Prompt\Third Practical Midterm Test\Third Practical Midterm Test\Third Practical Midterm Test\obj\Debug\net5.0\ref\Third Practical Midterm Test.dll
 D:\Prompt\Third Practical Midterm Test\Third Practical Midterm Test\Third Practical Midterm Test\obj\Debug\net5.0\Third Practical Midterm Test.pdb
 D:\Prompt\Third Practical Midterm Test\Third Practical Midterm Test\Third Practical Midterm Test\obj\Debug\net5.0\Third Practical Midterm Test.genruntimeconfig.cache
+D:\Prompt\Third Practical Midterm Test\Third Practical Midterm Test\Third Practical Midterm Test\obj\Debug\net5.0\Third Practical Midterm Test.csprojAssemblyReference.cache
